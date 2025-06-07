@@ -4,3 +4,18 @@ Scientific metadata often suffer from incompleteness, inconsistency, and formatt
 
 ## Code Usage
 Some files require OpenAI API-key for running. We have recorded the prompts and other mechanisms for both making the metadata FAIR using LLMs and for recording the recall values. 
+
+# Citation
+The paper is available [here](https://arxiv.org/abs/2504.05307). Please consider using the following BibTex for citation.
+```
+@misc{sundaram2025totalrecallenhancingfairness,
+      title={Toward Total Recall: Enhancing FAIRness through AI-Driven Metadata Standardization}, 
+      author={Sowmya S Sundaram and Mark A Musen},
+      year={2025},
+      eprint={2504.05307},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2504.05307}, 
+}
+```
+
