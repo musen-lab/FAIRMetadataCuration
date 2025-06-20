@@ -7,7 +7,7 @@ Some files require OpenAI API-key for running. We have recorded the prompts and 
 
 
 
-# Citation
+## Citation
 The paper is available [here](https://arxiv.org/abs/2504.05307). Please consider using the following BibTex for citation.
 ```
 @misc{sundaram2025totalrecallenhancingfairness,
