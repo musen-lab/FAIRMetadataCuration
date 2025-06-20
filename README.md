@@ -21,7 +21,7 @@ The paper is available [here](https://arxiv.org/abs/2504.05307). Please consider
 }
 ```
 
-##License
+## License
 MIT License
 
 Copyright (c) 2025 Mark Musen's Lab
