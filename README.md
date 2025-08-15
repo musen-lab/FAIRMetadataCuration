@@ -12,7 +12,7 @@ The paper is available [here](https://arxiv.org/abs/2504.05307). Please consider
 ```
 @misc{sundaram2025totalrecallenhancingfairness,
       title={Toward Total Recall: Enhancing FAIRness through AI-Driven Metadata Standardization}, 
-      author={Sowmya S Sundaram and Mark A Musen},
+      author={Sowmya S Sundaram and Rafael S. Gonçalves and Mark A Musen},
       year={2025},
       eprint={2504.05307},
       archivePrefix={arXiv},
