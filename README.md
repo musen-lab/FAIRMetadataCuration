@@ -1,5 +1,4 @@
 # FAIRMetadataCuration
-# FAIRMetadataCuration
 
 **Enhancing FAIR Metadata Curation with AI‑Assisted Models and Structured Templates**
 
