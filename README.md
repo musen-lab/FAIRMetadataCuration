@@ -1,9 +1,52 @@
 # FAIRMetadataCuration
+# FAIRMetadataCuration
 
-Scientific metadata often suffer from incompleteness, inconsistency, and formatting errors, which hinder effective discovery and reuse of the associated data. We present a method that uses GPT-4 and the CEDAR metadata knowledge base to automatically standardize metadata and ensure compliance with established standards. Our standardization process corrects and refines metadata entries in bulk, resulting in significantly improved search performance and recall. Using the BioSample and GEO repositories, we demonstrate how metadata standardization enhances retrieval outcomes. The average recall increases from 17.65\% with the baseline raw metadata (in BioSample and GEO) to 62.87\% with the metadata corrected by our pipeline. These results underscore the transformative potential of combining advanced AI models with standardized metadata structures for more effective and reliable data retrieval.
+**Enhancing FAIR Metadata Curation with AI‑Assisted Models and Structured Templates**
 
-## Code Usage
-Some files require OpenAI API-key for running. We have recorded the prompts and other mechanisms for both making the metadata FAIR using LLMs and for recording the recall values. MetadataCorrection is the python notebook to perform metadata correction for your data. MetadatRefine is the code to calculate recall, precision and F1 if you have access to gold standard. The other files are pertinent to our deployment where Rules.ipynb was the notebook used to create the gold standard and GEODatasetCreator is the code we used to generate our GEO dataset. The data is available [here](https://doi.org/10.5281/zenodo.15617182).
+Scientific metadata often suffer from incompleteness, inconsistency, and formatting errors, which hinder effective discovery, reuse, and interoperability of associated data. The **FAIRMetadataCuration** project provides tools and notebooks for improving metadata quality by combining large language models with structured metadata templates to standardize, refine, and correct metadata at scale.
+
+This repository implements workflows that leverage GPT‑based models and community‑driven metadata structures to bring metadata closer to **FAIR** principles (Findable, Accessible, Interoperable, Reusable).
+
+---
+
+## 🚀 Features
+
+- 🧠 **AI‑Assisted Metadata Correction**  
+  Correct and standardize metadata records using GPT models in batch workflows.
+
+- 📊 **Evaluation of Metadata Quality**  
+  Tools to compute recall, precision, and F1 scores against gold‑standard metadata.
+
+- 📦 **Dataset Creation Utilities**  
+  Scripts and notebooks for generating datasets from public sources like GEO and BioSample.
+
+- 📘 Based on research demonstrating improved metadata recall with automated FAIRification methods, significantly enhancing downstream search performance.:contentReference[oaicite:0]{index=0}
+
+---
+
+## 📦 Repository Structure
+
+| File / Folder | Description |
+|---------------|-------------|
+| `MetadataCorrection-gpt.ipynb` | Notebook to run GPT‑driven metadata correction workflows. |
+| `metadata-refine.ipynb` | Notebook for computing evaluation metrics against gold standards. |
+| `GEODatasetGenerator.ipynb` | Script to generate curated GEO datasets for experiments. |
+| `Rules.ipynb` | Notebook used to derive gold‑standard rules for metadata refinement. |
+| `README.md` | This documentation file. |
+| `LICENSE` | MIT License for open reuse. |
+
+---
+
+## 🛠️ Getting Started
+
+### 🔁 Prerequisites
+
+- Python environment with necessary packages (e.g., Jupyter, OpenAI SDK)  
+- OpenAI API key if using notebooks with GPT‑based correction  
+- Access to raw metadata sources (BioSample, GEO, or others)
+
+## Data
+The data is available [here](https://doi.org/10.5281/zenodo.15617182).
 
 
 
