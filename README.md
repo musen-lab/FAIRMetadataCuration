@@ -19,7 +19,7 @@ This repository implements workflows that leverage GPT‑based models and commun
 - 📦 **Dataset Creation Utilities**  
   Scripts and notebooks for generating datasets from public sources like GEO and BioSample.
 
-- 📘 Based on research demonstrating improved metadata recall with automated FAIRification methods, significantly enhancing downstream search performance.:contentReference[oaicite:0]{index=0}
+- 📘 Based on research demonstrating improved metadata recall with automated FAIRification methods, significantly enhancing downstream search performance.
 
 ---
 
